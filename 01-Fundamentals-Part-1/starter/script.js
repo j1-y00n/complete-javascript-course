@@ -1,17 +1,15 @@
-/*
 let js = 'amazing';
 console.log(40 + 8 +23 -10);
 
 console.log("Jonas");
 console.log(23);
 
-let firstName = "Jonas"
+let firstName = "Jonas";
 console.log(firstName);
 console.log(firstName);
 console.log(firstName);
-*/
 
-/*
+
 let javascriptIsFun = true;
 console.log(javascriptIsFun)
 
@@ -30,13 +28,13 @@ year = 1991;
 console.log(typeof year);
 
 
-const firstName = 'Jonas';
+const firstName2 = 'Jonas';
 const job = 'teacher';
 const birthYear = 1991;
-const year = 2023;
-const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
+const year2 = 2023;
+const jonas = "I'm " + firstName2 + ', a ' + (year2 - birthYear) + ' years old ' + job + '!';
 console.log(jonas);
-const jonasNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+const jonasNew = `I'm ${firstName2}, a ${year2 - birthYear} years old ${job}!`;
 console.log(jonasNew);
 
 
@@ -86,19 +84,19 @@ if (day === 'monday') {
 } else {
   console.log('Not a valid day!');
 }
-*/
 
-const age = 23;
-const drink = age >= 18 ? 'wine🍷' : 'water💧';
+
+const age2 = 23;
+const drink = age2 >= 18 ? 'wine🍷' : 'water💧';
 console.log(drink);
 
 // =>위와 같은 표현
 let drink2;
-if (age >= 18) {
+if (age2 >= 18) {
   drink2 = 'wine🍷';
 } else {
   drink2 = 'water💧';
 }
 console.log(drink2);
 
-console.log(`I like to drink ${age >= 18 ? 'wine🍷' : 'water💧'}`);
+console.log(`I like to drink ${age2 >= 18 ? 'wine🍷' : 'water💧'}`);
